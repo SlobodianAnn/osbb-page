@@ -1,0 +1,222 @@
+@media screen and (max-width: 1050px){
+    .OSBB-hide{
+        display: block;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        color: #6E788D;
+        padding-left: 50px;
+    }
+    .nav-container{
+        max-width: none;
+    }
+    .nav-container .menu-icon {
+        display: inline-block;
+        font-size: 22px;
+    }
+    .OSBB-show{
+        display: none;
+    }
+    .nav-container > p {
+        display: none;
+    }
+    .gallary-photos-wrap img{
+        max-width: 325px;
+    }
+    .information-container-wrap{
+        display: block;
+    }
+    .text-wrap {
+        width: 90%;
+        max-width: none;
+        min-width: none;
+        margin: 0 auto;
+    }
+    .card {
+        margin: 45px auto;
+    }
+    .tariff-box {
+        max-width: 940px;
+    }
+    .last-news-container img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+    .news-left-box{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .read-more-button{
+        position: absolute;
+        right: 0;
+    }
+    .wrap-news{
+        max-width: 75%;
+    }
+    .right-footer-box {
+        height: 294px;
+        min-width: 60vw;
+    }
+    .contacts{
+        display: block;
+        position: static;
+        margin-top: 15px;
+    }
+    .footer-nav-list-2column {
+        border: none;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 770px){
+    .gallary-photos-wrap img {
+        max-width: 240px;
+    }
+    .right-tariff-container{
+        width: 312px;
+        bottom: 10px;
+    }
+    .right-footer-box{
+        padding: 20px 0 0 35px;
+    }
+}
+@media screen and (max-width: 645px){
+    .preheader-container{
+        height: 79px;
+        padding: 0 15px;
+    }
+    .preheader-container p:not(.OSBB-text){
+        display: block;
+    }
+    .registration-button {
+        position: absolute;
+        top: 0;
+        right: -30px;
+    }
+    .enter {
+        position: absolute;
+        right: -25px;
+        top: 32px;
+        width: 115px;
+        font-size: 14px;
+    }
+    .phone{
+        margin-bottom: 5px;
+    }
+    .preheader-container .registration-button{
+        padding: 0;
+        line-height: 31px;
+        height: 37px;
+        width: 155px;
+        text-align: center;
+    }
+    .OSBB-hide{
+        padding-left: 0
+    }
+    .regist-text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .regist-text > span {
+        font-size: 16px;
+    }
+    .inputs-wrap {
+        height: 48px;
+        width: 85%;
+        padding: 10px 18px 15px;
+    }
+    .inpt-name{
+        width: 31%;
+        height: 30px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .inpt-phone{
+        width: 65%;
+        height: 30px;
+        font-size: 12px;
+    }
+    .submit-button {
+        display: none;
+    }
+    .icons-wrappper{
+        display: none;
+    }
+    .form-wrapper {
+        padding-top: 8px; 
+        height: 192px;
+    }
+    .inputs-wrap{
+        margin: 15px auto;
+    }
+    .gallary-photos-wrap{
+        flex-wrap: wrap;
+    }
+    .gallary-photos-wrap img{
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .nav-buttons-hide{
+        display: none;
+    }
+    .card{
+        width: 345px;
+        height: 344px;
+    }
+    .tariff-box {
+        height: auto;
+    }
+    .right-tariff-container{
+        position: static;
+        margin-left: 0;
+        font-size: 12px
+    }
+    .input-number {
+        width: 261px;
+        height: 35px;
+    }
+    .main-label {
+        font-size: 12px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .wrap-imp-icon{
+        margin-bottom: 10px;
+        margin-top: 22px
+    }
+    .tariff-box{
+        width: 345px;
+    }
+    .label-month {
+        font-size: 12px;
+    }
+    .left-footer-box{
+        text-align: center;
+        padding-bottom: 30px
+    }
+    footer{
+        display: block;
+    }
+    .footer-nav-list-2column{
+        padding-right: 0px;
+        margin-left: 0;
+    }
+    .main-text{
+        font-size: 14px;
+    }
+    .submit-button-mobile {
+        display: block;
+    }
+    .text-wrap{
+        min-width: unset;
+    }
+    .card-list li{
+        padding-left: 20px;
+    }
+
+
+}
