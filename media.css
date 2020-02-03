@@ -26,16 +26,16 @@
     .information-container-wrap{
         display: block;
     }
-    .text-wrap {
+    .information-container__text-wrap {
         width: 90%;
         max-width: none;
-        min-width: none;
+        min-width: auto;
         margin: 0 auto;
     }
     .card {
         margin: 45px auto;
     }
-    .tariff-box {
+    .tariff-calculator{
         max-width: 940px;
     }
     .last-news-container img{
@@ -68,7 +68,7 @@
     }
     .footer-nav-list-2column {
         border: none;
-        margin-left: 0;
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 770px){
@@ -88,7 +88,7 @@
         height: 79px;
         padding: 0 15px;
     }
-    .preheader-container p:not(.OSBB-text){
+    .preheader-container p:not(.OSBB-logo){
         display: block;
     }
     .registration-button {
@@ -110,7 +110,7 @@
         padding: 0;
         line-height: 31px;
         height: 37px;
-        width: 155px;
+        width: 150px;
         text-align: center;
     }
     .OSBB-hide{
@@ -123,10 +123,11 @@
     .regist-text > span {
         font-size: 16px;
     }
-    .inputs-wrap {
+    .regist-form {
         height: 48px;
         width: 85%;
-        padding: 10px 18px 15px;
+        padding: 10px 10px 15px;
+        margin-top: 20px;
     }
     .inpt-name{
         width: 31%;
@@ -139,17 +140,17 @@
         height: 30px;
         font-size: 12px;
     }
-    .submit-button {
+    .regist-form__submit-button {
         display: none;
     }
-    .icons-wrappper{
+    .regist-container__icons-box{
         display: none;
     }
-    .form-wrapper {
-        padding-top: 8px; 
-        height: 192px;
+    .form-box {
+        padding: 8px 0; 
+        height: auto;
     }
-    .inputs-wrap{
+    .regist-container__icons-box{
         margin: 15px auto;
     }
     .gallary-photos-wrap{
@@ -166,11 +167,10 @@
         width: 345px;
         height: 344px;
     }
-    .tariff-box {
+    .tariff-calculator {
         height: auto;
     }
     .right-tariff-container{
-        position: static;
         margin-left: 0;
         font-size: 12px
     }
@@ -181,14 +181,17 @@
     .main-label {
         font-size: 12px;
     }
-    .price {
+    .tariff-container-price {
         font-size: 14px;
     }
     .wrap-imp-icon{
         margin-bottom: 10px;
         margin-top: 22px
+    }    
+    .tariff-calculate-columns{
+        display: block;
     }
-    .tariff-box{
+    .tariff-calculator{
         width: 345px;
     }
     .label-month {
@@ -208,7 +211,7 @@
     .main-text{
         font-size: 14px;
     }
-    .submit-button-mobile {
+    .submit-button-show {
         display: block;
     }
     .text-wrap{
@@ -217,6 +220,4 @@
     .card-list li{
         padding-left: 20px;
     }
-
-
 }
