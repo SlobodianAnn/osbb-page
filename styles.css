@@ -1,6 +1,9 @@
 body, p {
     margin: 0;
 }
+.wrap-page{
+    min-width: 320px;
+}
 .preheader-container{
     height: 54px;
     background-color: #4B5464;
@@ -9,7 +12,7 @@ body, p {
     width: 100%;
     box-sizing: border-box;
 }
-.preheader-container p:not(.OSBB-text) {
+.preheader-container p:not(.OSBB-logo) {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -52,7 +55,7 @@ body, p {
     display: inline-block;
     margin-right: 8px;
 }
-.OSBB-text {
+.OSBB-logo {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
@@ -61,7 +64,7 @@ body, p {
     line-height: 10px;
     color: #fff;
 }
-.OSBB-text > span {
+.OSBB-logo > span {
     color: #86BC42;
 }
 
@@ -102,7 +105,7 @@ body, p {
 .nav-container > p:first-child{
     color: #86BC42;
 }
-.registration-container{
+.regist-container{
     background-image: url('img/204741.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +113,7 @@ body, p {
     padding: 119px 15px 84px;
     box-sizing: border-box;
 }
-.form-wrapper {
+.form-box {
     max-width: 840px;
     width: 100%;
     height: 462px;
@@ -135,7 +138,7 @@ body, p {
     font-size: 24px;
     font-weight: normal;
 }
-.inputs-wrap {
+.regist-form {
     background-color: #fff;
     border-radius: 50px;
     width: 569px;
@@ -144,13 +147,13 @@ body, p {
     padding: 14px 18px 15px;
     margin: 63px auto 0;
 }
-.input-fields {
+.regist-form__input {
     display: inline-block;
     border-radius: 50px;
     border: 1px solid #8F8F8F;
     font-size: 14px;
     color:#6E788D;
-    padding-left: 15px;
+    padding-left: 2vw;
     box-sizing: border-box;
     height: 41px;
 }
@@ -161,7 +164,7 @@ body, p {
 .inpt-phone {
     width: 219px;
 }
-.submit-button{
+.regist-form__submit-button{
     width: 117px;
     height: 41px;
     float: right;
@@ -176,7 +179,7 @@ body, p {
     text-transform: uppercase;
     border: 0;
 }
-.icons-wrappper{
+.regist-container__icons-box{
     width: 510px;
     margin: 50px auto;
     display: flex;
@@ -284,7 +287,7 @@ body, p {
     display: inline-block;
     margin-right: 15px;
 }
-.wrap-cicrles {
+.wrap-cicrles-nav-buttons {
     display: flex;
     align-items: center; 
 }
@@ -368,12 +371,12 @@ li .ellipse-icon{
     display: inline-block;
     margin-right: 19px
 }
-.text-wrap{
+.information-container__text-wrap{
     max-width: 655px;
     padding: 0 15px;
     min-width: 400px;
 }
-.text-wrap p{
+.information-container__text-wrap p{
     text-align: left;
     margin-top: 15px;
 }
@@ -391,11 +394,15 @@ li .ellipse-icon{
     background-repeat: no-repeat;
     margin-top: 76px;
 }
-.tariff-box{
+.tariff-calculate-columns{
+    display: flex;
+    justify-content: space-around;
+}
+.tariff-calculator{
     max-width:1010px;
     margin: 0 auto;
     height: 397px;
-    padding: 38px 34px;
+    padding: 38px 10px;
     background: rgba(255, 255, 255, 0.94);
     border: 1px solid #86BC42;
     box-sizing: border-box;
@@ -430,7 +437,8 @@ input[type="number"] {
     margin-bottom: 8px;
 }
 .input-number{
-    width: 373px;
+    max-width: 373px;
+    widows: 100%;
     height: 51px;
     border: 1px solid #6E788D;
     box-sizing: border-box;
@@ -467,10 +475,7 @@ input[type="radio"]{
     font-size: 16px;
     line-height: 22px;
     color: #6E788D;
-    margin-left: 170px;
-    position: absolute;
-    right: 20px;
-    bottom: 45px;
+    margin-left: 10px;
     width: 400px;
 }
 .right-tariff-container p{
@@ -479,7 +484,7 @@ input[type="radio"]{
 .right-tariff-container span{
     color: #86BC42;
 }
-.price {
+.tariff-container-price {
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 18px;
@@ -499,7 +504,7 @@ input[type="radio"]{
 .wrap-imp-icon{
     display: flex;
     margin-bottom: 35px;
-    margin-top: 40px;
+    margin-top: 4vw;
 }
 .news-left-box {
     padding-left: 60px;
@@ -660,24 +665,19 @@ footer{
     right: 0;
     width: 150px;
 }
-footer .OSBB-text {
+.footer-OSBB-logo {
     color: #6E788D;
 }
 .OSBB-hide{
     display: none;
 }
-.submit-button-mobile {
-    display: none;
+.submit-button-show {
     width: 102px;
     height: 42px;
-    margin: 0 auto;
-    background-color: #fff;
+    display: none;
+    margin: 10px auto;
     border-radius: 37px;
-    padding: 7px 0 0 7px;
     box-sizing: border-box;
-    margin-top: 10px;
+    border: 10px solid white;
 }
-.submit-button-show {
-    width: 86px;
-    height: 30px;
-}
+
