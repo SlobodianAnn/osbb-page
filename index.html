@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dede6bab1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media320.css">
+
 </head>
+
 <body>
     <div class="wrap-page">
         <div class="preheader-container">
             <p class="phone">+38 (067) 329 29 47</p>
             <p class="email">e-mailmail@i.ua</p>
-            <p class="OSBB-text OSBB-show"><span>ОСББ</span> "Гончара 62"</p>
+            <p class="OSBB-logo OSBB-show"><span>ОСББ</span> "Гончара 62"</p>
             <div class="wrap-enter-regist">
                 <p class="enter">Вход</p>
                 <p class="registration-button">Регистрация</p>
@@ -23,7 +27,7 @@
         </div>
         <div class="nav-container">
             <div>
-                <p class="OSBB-text OSBB-hide"><span>ОСББ</span> "Гончара 62"</p>
+                <p class="OSBB-logo OSBB-hide"><span>ОСББ</span> "Гончара 62"</p>
             </div>
             <p>Главная</p>
             <p>Обьявления</p>
@@ -33,44 +37,43 @@
             <p>Контакты</p>
             <i class="fas fa-bars menu-icon"></i>
         </div>
-        <div class="registration-container">
-            <div class="form-wrapper">
+        <div class="regist-container">
+            <div class="form-box">
                 <p class="regist-text">Зарегестрируйтесь сейчас</br><span> чтобы знать новости первыми!</span></p>
-                <div class="inputs-wrap">
-                    <input class="input-fields inpt-name" placeholder="Ваше имя" type="text">
-                    <input class="input-fields inpt-phone" placeholder="Ваш номер телефона" type="tel">
-                    <input class="submit-button green-button" value="Готово!" type="submit">
-                    <div class="icons-wrappper">
-                        <div class="icon-card"><span>1</span><img src="img/resume.png" alt="resume">
-                            <p>Регистрируйтесь</p>
-                        </div>
-                        <div class="icon-card"><span>2</span><img src="img/surface1.png" alt="surface">
-                            <p>Вкурсе всех новостей</p>
-                        </div>
-                        <div class="icon-card"><span>3</span><img src="img/check-icon.png" alt="check">
-                            <p>Просто и понятно</p>
-                        </div>
+                <form class="regist-form">
+                    <input class="regist-form__input inpt-name" placeholder="Ваше имя" type="text">
+                    <input class="regist-form__input inpt-phone" placeholder="Ваш номер телефона" type="tel">
+                    <input class="regist-form__submit-button green-button" value="Готово!" type="submit">
+                </form>
+                <div class="regist-container__icons-box">
+                    <div class="icon-card"><span>1</span><img src="img/resume.png" alt="resume">
+                        <p>Регистрируйтесь</p>
+                    </div>
+                    <div class="icon-card"><span>2</span><img src="img/surface1.png" alt="surface">
+                        <p>Вкурсе всех новостей</p>
+                    </div>
+                    <div class="icon-card"><span>3</span><img src="img/check-icon.png" alt="check">
+                        <p>Просто и понятно</p>
                     </div>
                 </div>
-                <div class="submit-button-mobile"><input class="submit-button-show green-button" value="Готово!" type="submit"></div>
+                <input class="submit-button-show green-button" value="Готово!" type="submit">
             </div>
         </div>
         <div class="bg-flower">
             <div class="gallary-container">
                 <div class="line-above"></div>
                 <p class="headline">последние фото</p>
-                <p class="main-text ">Мы создаем новый стиль управления жильем! Чем наш стиль работы отличается от
+                <p class="main-text">Мы создаем новый стиль управления жильем! Чем наш стиль работы отличается от
                     других? Мы создаем территорию
                     для комфортного, безопасного жизни людей, доверивших управление своим домом Жилой управляющей
                     компании.</p>
-
                 <div class="gallary-photos-wrap">
                     <img src="img/d93fcf468abd37f44e8e119f7347c554.png" alt="image">
                     <img src="img/ржавская.png" alt="image">
                     <img src="img/8392409291.jpg" alt="image">
                 </div>
                 <div class="gallary-nav-buttons nav-buttons-hide">
-                    <div class="wrap-cicrles">
+                    <div class="wrap-cicrles-nav-buttons">
                         <img class="arrow-left" src="img/Arrow7.png" alt="Arrow">
                         <div class="icon-circle"></div>
                         <div class="icon-big-circle"></div>
@@ -85,7 +88,7 @@
                 <div class="line-above"></div>
                 <p class="headline">информация про коммунальные услуги</p>
                 <div class="information-container-wrap">
-                    <div class="text-wrap">
+                    <div class="information-container__text-wrap">
                         <p class="main-text">Присоединение дома в ОСМД актуалено и для соседних домов, в которых уже
                             успешно
                             функционирует объединене.</p>
@@ -129,9 +132,10 @@
             </div>
         </div>
         <div class="tariff-container">
-            <div class="tariff-box">
+            <div class="tariff-calculator">
                 <div class="line-above"></div>
                 <p class="tariff-headline">Тарифы</p>
+                <div class="tariff-calculate-columns">
                 <form action="#" method="post">
                     <label class="main-label" for="house-area">Введите площадь вашего дома (кв/м)</label>
                     <input class="input-number" type="number" name="house-area" id="house-area">
@@ -152,18 +156,17 @@
                         <p>Начиная с момента регистрации ОСМД на сайте предоставляется <span>90 дней БЕСПЛАТНОГО<span>
                                     использования сервиса.</p>
                     </div>
-                    <p class="price">Стоимость: 0.00 грн</p>
+                    <p class="tariff-container-price">Стоимость: 0.00 грн</p>
+                </div>                
                 </div>
             </div>
         </div>
         <div class="last-news-container">
             <p class="headline">последние новости</p>
-
             <div class="wrap-news">
-                    <p class="headline2">Повышение контроля руководства за деятельностью ОСББ.</p>
+                <p class="headline2">Повышение контроля руководства за деятельностью ОСББ.</p>
                 <img src="img/office-building_23-2148103947.png" alt="office-building">
                 <div class="news-left-box">
-                   
                     <p class="main-text">Информирование о текущем балансе, сохранение истории платежей, начисление
                         квартплат. Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.
                         Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.</p>
@@ -175,7 +178,7 @@
             </div>
         </div>
         <div class="gallary-nav-buttons">
-            <div class="wrap-cicrles">
+            <div class="wrap-cicrles-nav-buttons">
                 <img class="arrow-left" src="img/Arrow7.png" alt="Arrow">
                 <div class="icon-circle"></div>
                 <div class="icon-big-circle"></div>
@@ -187,7 +190,7 @@
         <button class="green-button news-button">смотреть все новости</button>
         <footer>
             <div class="left-footer-box">
-                <p class="OSBB-text "><span>ОСББ</span>"ГОНЧАРА 62"</p>
+                <p class="OSBB-logo footer-OSBB-logo"><span>ОСББ</span>"ГОНЧАРА 62"</p>
                 <p class="footer-text">Огромное количество успешных проектов, не оставило нашу компанию без драгоценного
                     опыта.</p>
                 <p class="footer-text">Мы профессионалы своего дела!</p>
@@ -224,5 +227,4 @@
 
     </div>
 </body>
-
 </html>
