@@ -1,0 +1,18 @@
+@media screen and (max-width: 320px){
+    .tariff-calculator{
+        width: 290px;
+    }
+    .right-tariff-container{
+        width: 275px;
+    }
+    .information-container__text-wrap{
+        min-width: 290px;
+    }
+    .card {
+        width: 300px;
+        min-width: 300px;
+    }
+    .card-list li{
+        font-size: 14px;
+    }
+}
